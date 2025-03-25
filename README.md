@@ -38,28 +38,12 @@ A gamified financial planning app for California teachers enrolled in the CalSTR
    brew install node
    ```
 
-4. **Install Watchman** (required for React Native development):
-   ```bash
-   brew install watchman
-   ```
-
-5. **Install Xcode** (required for iOS development):
-   - Open the App Store
-   - Search for "Xcode"
-   - Click "Get" or "Download"
-   - After installation, open Xcode and accept any additional installations
-
-6. **Install Xcode Command Line Tools**:
-   ```bash
-   xcode-select --install
-   ```
-
 ### Setting Up the Project
 
 1. **Clone the Repository**:
    ```bash
    cd ~/Documents  # or wherever you want to store the project
-   git clone git@github.com:kbergs/finquest.git
+   git clone https://github.com/kbergs/finquest.git
    cd finquest
    ```
 
@@ -91,10 +75,6 @@ A gamified financial planning app for California teachers enrolled in the CalSTR
    - Scan the QR code shown in the Terminal
    - This will open the app in Expo Go
 
-3. **Running in iOS Simulator**:
-   - With the development server running, press `i` in the Terminal
-   - This will open the app in the iOS Simulator
-
 ### Troubleshooting Common Issues
 
 1. **If you see "command not found" for any brew commands**:
@@ -114,12 +94,6 @@ A gamified financial planning app for California teachers enrolled in the CalSTR
    npm install -g expo-cli@latest  # Update Expo CLI
    expo doctor --fix-dependencies  # Fix dependencies
    ```
-
-4. **If iOS Simulator isn't working**:
-   - Open Xcode
-   - Go to Preferences > Locations
-   - Make sure Command Line Tools is set
-   - Try running `sudo xcode-select -s /Applications/Xcode.app`
 
 ## Development Status
 
